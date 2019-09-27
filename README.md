@@ -1,2 +1,2 @@
-# 12-740
+# Indoor Air Quality Monitoring and Regulation System
 project webpage
