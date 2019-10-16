@@ -1,23 +1,24 @@
  <body>
 
-    <div class="site-header">
+  <div class="site-header">
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <i class="fa fa-navicon fa-lg"></i>
-      </a>
+  <nav class="site-nav">
+    <a href="#" class="menu-icon">
+      <i class="fa fa-navicon fa-lg"></i>
+    </a>
 
-      <div class="trigger">
-            <a class="page-link" href="https://inferlab.github.io/12740"> Course Site</a>
-      </div>
-    </nav>
-
-</div>
+  <div class="trigger">
+      <a class="page-link" href="https://inferlab.github.io/12740"> Course Site</a>
+  </div>
+  </nav>
 
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="post">
+  </div>
+
+
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="post">
 
   <header class="post-header">
      <h1 class="post-title" style="text-align: center">Indoor Air Quality Monitoring System - Progress Report</h1>
@@ -30,7 +31,7 @@
 <hr />
 <h2 id="introduction">Introduction</h2>
 <ul>
-This project is designed to produce an integrated indoor air quality real-time monitoring system prototype. The system will utilize a multi sensor system that placed at different locations within a relatively closed environment and measure relevant quantities such that could provide insights to the environment air conditions. 
+This project is designed to produce an integrated indoor air quality real-time monitoring system prototype. The system will utilize a multi sensor system that placed at different locations within a relatively closed environment and measure relevant quantities such that could provide insights to the environment air conditions.
 </ul>
 
 <h2 id="motivation">Motivation</h2>
@@ -52,7 +53,7 @@ This project is designed to produce an integrated indoor air quality real-time m
 
   <figure>
     <center>
-    <img src="pics/setup1.jpeg" width = "400" height = "320" alt="Figure 1: Initial setup for the smoke and humidity sensor" align="middle"> 
+    <img src="pics/setup1.jpeg" width = "400" height = "320" alt="Figure 1: Initial setup for the smoke and humidity sensor" align="middle">
     <figcaption> Figure 1: Initial setup for the smoke and humidity sensor </figcaption>
     </center>
   </figure>
@@ -83,36 +84,6 @@ This project is designed to produce an integrated indoor air quality real-time m
   In the next two weeks, we are planning first to make the experiment conditions better such as using type to protect the paper box because our project involves with humidity and changing such variables may cause damage to the environment.  Further, we will embed sensors in the system and changing the variables to see how our data changes corresponding to the variable changes. We also plan to talk to the professor to see if he has any suggestions for the project.
 </ul>
 
-<!-- <hr />
-<h2 id="methodology">Methodology</h2>
-<h3 id="phenomena-of-interest">Phenomena of Interest</h3>
-<ul>
-  <li>Describe the physical phenomena of interest, e.g. physical principles, static and dynamic behavior, and signal characteristics</li>
-</ul>
-
-<h3 id="sensors-used">Sensor(s) Used</h3>
-<ul>
-  <li>Describe the sensor(s) you used, e.g. physical principles, static and dynamic behavior, and signal characteristics</li>
-</ul>
-
-<h3 id="signal-conditioning-and-processing">Signal Conditioning and Processing</h3>
-<ul>
-  <li>Describe the signal conditioning and processing procedures</li>
-</ul>
-
-<hr />
-<h2 id="experiments-and-results">Experiments and Results</h2>
-<ul>
-  <li>Describe the experiments you did and present the results; Use tables and plots if possible</li>
-</ul>
-
-<hr />
-
-<h2 id="discussion">Discussion</h2>
-<ul>
-  <li>Discuss the insights from the project</li>
-</ul> -->
-
 
   </article>
 
@@ -122,12 +93,12 @@ This project is designed to produce an integrated indoor air quality real-time m
   	</a>
   </div>
 
-</div>
+  </div>
 
-      </div>
-    </div>
+  </div>
+  </div>
 
-    <div class="footer center">
+  <div class="footer center">
 
 
 </div>
