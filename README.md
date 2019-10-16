@@ -129,11 +129,9 @@ This project is designed to produce an integrated indoor air quality real-time m
 
     <div class="footer center">
 
-  Theme is taken from <a href=http://diezcami.github.io target="_blank">Camille Diez</a> 2015<BR />
-  The site is powered by <a href=http://jekyllrb.com target="_blank">Jekyll</a>
 
 </div>
 
 
   </body>
-</html>
+
