@@ -21,7 +21,7 @@
       <div class="post">
 
   <header class="post-header">
-     <h1 class="post-title" style="text-align: center">Indoor Air Quality Monitoring System - Progress Report</h1>
+     <h1 class="post-title" style="text-align: center">Indoor Air Quality Monitoring System </h1>
      <p class="post-meta" > Group AA: Yu Du; Yuhang Liang; Lin Lyu</p>
   </header>
 
