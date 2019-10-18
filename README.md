@@ -123,27 +123,28 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
   DS18B20 is 1-Wire interface Temperature sensor manufactured by Dallas Semiconductor Corp. The unique 1-Wire Interface requires only one digital pin for two way communication with a microcontroller.The sensor comes usually in two form factors. One is that comes in TO-92 package looks exactly like an ordinary transistor[6] and the other is a waterproof probe style.
 </ul>
 <h3 id="3.2"> Static and Dynamic Behavior of Sensor</h3>
-<ul>
   <p> DHT11Static behavior: Senstivity</p>
   <ul>
     DHT11 which contains a thermistor, can more easily detect small changes in temperature and is  more sensitive than a less sensitive sensor, like a thermocouple. This sensitivity, however, comes at the expense of linearity. This can be an important factor when determining the ideal sensor choice for the temperatures measuring.
   </ul>
   <p> DHT11Static behavior: Accuracy</p>
-  <ul>
-    The accuracy of humidity is ±5% and The accuracy of temperature is ±2°C.
-  </ul>
-  <p> DHT11Static behavior: Repeatablility</p>
-  <li>The repeatability about humidity is  ±1% <li>
-  <li>The repeatability about temperature is  ±0.2°C <li>
-  <p> DHT11Static behavior: Dynamic Behavior</p>
+<ul>
+  The accuracy of humidity is ±5% and The accuracy of temperature is ±2°C.
+</ul>
+<p> DHT11Static behavior: Repeatablility</p>
+<ul>
+    <li>The repeatability about humidity is  ±1% </li>
+    <li>The repeatability about temperature is  ±0.2°C </li>
+</ul>
+<p> DHT11Static behavior: Dynamic Behavior</p>
   <ul>
     Lag: there is a lag between the changes in temperature or humidity intensity and resistance of sensor. However, this lag can be ignored.
   </ul>
 
-  <p> MQ-2: Sensitivity</p>
-  <ul>
+<p> MQ-2: Sensitivity</p>
+<ul>
   MQ-2 gas sensor has high sensitivity to  combustible gas in wide range(300-10000ppm)[7] ,sensitivity=Rs(in air)/Rs(1000ppm isobutane)≥5
-  </ul>
+</ul>
 
 <h3 id="3.3"> Sensor Characteristics Discussions</h3>
 <p>DHT11 and DS18B20</p>
