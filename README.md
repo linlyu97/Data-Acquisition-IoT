@@ -153,8 +153,8 @@ Physical devices integrated:
 <figure>
     <center>
     <img src="pics/table.png" width = "350" height = "250" class="center">
-    </center>
     <figcaption> <strong>Table 1:</strong> Characteristics of DHT11 and the reference sensor  </figcaption>
+    </center>
 </figure>
 <p> MQ-2</p>
 From the table below, we can see that it has wide detecting scope, fast response and high sensitivity.
@@ -178,9 +178,10 @@ In the “Automatic Mode”, the sensing system will run locally and automatical
 <figure>
     <center>
     <img src="pics/setup.jpg" width = "400" height = "250" class="center">
-    </center>
     <figcaption> <strong>Figure 2:</strong> Experiment Setup </figcaption>
+    </center>
 </figure>
+
 <ul>
 The key expectation when user performing under IOT mode will be the ability to turn on/off the indications devices(led, fan, and buzzer) by remotely sending commands to the OpenChirp server and the ability to visualize real time series sensor data through OpenChirp web platform.
 
