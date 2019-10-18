@@ -21,7 +21,7 @@
       <div class="post">
 
   <header class="post-header">
-     <h1 class="post-title" style="text-align: center">Indoor Air Quality Monitoring System - Progress Report</h1>
+     <h1 class="post-title" style="text-align: center">Indoor Air Quality Monitoring System</h1>
      <p class="post-meta" > Group AA: Yu Du; Yuhang Liang; Lin Lyu</p>
   </header>
 
@@ -150,15 +150,13 @@ Physical devices integrated:
 </ul>
 <figure>
     <center>
-    <img src="pics/table.png" width = "420" height = "250" align="middle">
+    <img src="pics/table.png" width = "420" height = "250" class="center">
     </center>
     <figcaption> <strong>Figure 1:</strong>The table compares sensor characteristics between DHT11 and the reference data  </figcaption>
 </figure>
 <p> MQ-2</p>
 <figure>
-    <center>
-    <img src="pics/mq-2.png" width = "420" height = "250"  align="middle">
-    </center>
+    <img src="pics/mq-2.png" width = "420" height = "250"  class="center">
     <figcaption> <strong>Figure 2:</strong>The table compares sensor characteristics between DHT11 and the reference data  </figcaption>
 </figure>
 
