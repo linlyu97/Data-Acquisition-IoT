@@ -171,15 +171,15 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
 =======
 >>>>>>> 5b2953cd5b9ffb458f25e5f309f8f6989e44734e
 </ul>
-  
+
 <h2 id="problems-encountered">Conclusion</h2>
 <ul>
 <p>
    Our final project establishes IOT mode and automatic mode respectively. In IOT mode, users can independently control appliances, such as LED and fans, through OpenChirp. In automatic mode, the system can through the preset python program, through the DHT11 Temperature & humidity sensor module and gas smoke sensor module to real-time monitor the indoor temperature, humidity and combustible gas concentration; Raspberry Pi processes the collected data and makes corresponding instructions through buzzer alarm sensor module, LED, etc. What's more, the accuracy of collected data is checked by the precision and recall of real-time calculation.
 </p>
-   
+
 </ul>
-  
+
 <h2 id="future-plan">Reference</h2>
 <ul>
 <p>
