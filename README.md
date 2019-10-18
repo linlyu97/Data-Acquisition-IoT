@@ -152,7 +152,7 @@ Physical devices integrated:
 </ul>
 <figure>
     <center>
-    <img src="pics/table.png" width = "420" height = "250" class="center">
+    <img src="pics/table.png" width = "350" height = "250" class="center">
     </center>
     <figcaption> <strong>Table 1:</strong> Characteristics of DHT11 and the reference sensor  </figcaption>
 </figure>
@@ -175,6 +175,12 @@ In the IOT Mode, the devices can establish remote communication with a web-based
 In the “Automatic Mode”, the sensing system will run locally and automatically, which can be accessed by other devices through local network protocol. Under this mode, no specific inputs are expected from users. The indication devices and physical devices within the system will be powered depends on the real-time sensing data and decision functions. The design of the decision functions take several factors into consideration including seasonality, comfort level, etc.
 </ul>
 <h3 id="problems-encountered">Experiment Expectations</h3>
+<figure>
+    <center>
+    <img src="pics/setup.png" width = "400" height = "250" class="center">
+    </center>
+    <figcaption> <strong>Figure 1:</strong> Experiment Setup </figcaption>
+</figure>
 <ul>
 The key expectation when user performing under IOT mode will be the ability to turn on/off the indications devices(led, fan, and buzzer) by remotely sending commands to the OpenChirp server and the ability to visualize real time series sensor data through OpenChirp web platform.
 
@@ -219,11 +225,6 @@ The heat dissipation with fan uses 6s to cool down temperature and 15s without f
   	<i class="fa fa-arrow-circle-up fa-2x"></i>
   	</a>
   </div>
-
- <!--  </div>
-
-  </div>
-  </div> -->
 
   <div class="footer center">
 
