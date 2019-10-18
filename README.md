@@ -26,7 +26,7 @@
   </header>
 
   <article class="post-content">
-    <p class="page-link" href= "https://vimeo.com/user102996791/review/367173414/cb3d1d712a"> Video Link</p>
+    <a class="page-link" href= "https://vimeo.com/user102996791/review/367173414/cb3d1d712a"> Video Link</a>
 
 <hr />
 <h2 id="introduction">Introduction</h2>
