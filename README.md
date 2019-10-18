@@ -26,7 +26,7 @@
   </header>
 
   <article class="post-content">
-    <a class="page-link" href= "https://vimeo.com/user102996791/review/367173414/cb3d1d712a"> Video Link</a>
+    <a class="page-link" href= "https://vimeo.com/user102996791/"> Video Link</a>
 
 <hr />
 <h2 id="introduction">Introduction</h2>
@@ -150,10 +150,73 @@ Physical devices integrated:
 </ul>
 <figure>
     <center>
-    <img src="pics/table.png" width = "420" height = "250" alt="Figure 1: Initial setup for the smoke and humidity sensor" align="middle">
-    <figcaption> <strong>Figure 1:</strong>The table compares sensor characteristics between DHT11 and the reference data  </figcaption>
+    <img src="pics/table.png" width = "420" height = "250" align="middle">
     </center>
-  </figure>
+    <figcaption> <strong>Figure 1:</strong>The table compares sensor characteristics between DHT11 and the reference data  </figcaption>
+</figure>
+<p> MQ-2</p>
+<figure>
+    <center>
+    <img src="pics/mq-2.png" width = "420" height = "250"  align="middle">
+    </center>
+    <figcaption> <strong>Figure 2:</strong>The table compares sensor characteristics between DHT11 and the reference data  </figcaption>
+</figure>
+
+</ul>
+
+<h2 id="problems-encountered">Experiment and Results</h2>
+<h3 id="problems-encountered">The “Two Mode”</h3>
+<ul>
+The experiment is designed from two perspectives: the “IOT Mode” and the “Automatic Mode”.
+
+In the IOT Mode, the devices can establish remote communication with a web-based system architecture, OpenChirp, through communication protocol (MQTT, LP-WAN [2]) when presenting qualified authentication key. Users will, then, have the accessibility and flexibility to control the devices through either apps or web browser. The devices can be further controlled and visualized in various formats (i.e. time-series) by accessing this management  framework and the data were being stored at remote database at the same time.
+
+In the “Automatic Mode”, the sensing system will run locally and automatically, which can be accessed by other devices through local network protocol. Under this mode, no specific inputs are expected from users. The indication devices and physical devices within the system will be powered depends on the real-time sensing data and decision functions. The design of the decision functions take several factors into consideration including seasonality, comfort level, etc.
+</ul>
+<h3 id="problems-encountered">Experiment Expectations</h3>
+<ul>
+The key expectation when user performing under IOT mode will be the ability to turn on/off the indications devices(led, fan, and buzzer) by remotely sending commands to the OpenChirp server and the ability to visualize real time series sensor data through OpenChirp web platform.
+
+On the other hand, the expectation of the system when performing under Automatic Mode will again based on various factors like those mentioned above. Generally, all devices remain static under comfort conditions and will start to take actions when sensing data is out of desired comfortable range. The specific action taken by the device is based on device type, for example the indicators will be turned on to serve as warning and fan will be turned on to dissipate the heat/smoke. More specifically, the red led is expected to be turned on when the indoor temperature exceeds the comfort temperature upperbond, and the fan will be turned on simountiously for the purpose of heat dissipation. Similarly, the blue led is expected to be turned on when the temperature is below the comfort temperature lower bond. The buzzer alarm will produce noise when gas level is above the safety threshold, and the ventilation fan will also simultaneously be turned on to help expeling unsafe gas.
+</ul>
+<h3 id="problems-encountered">Experiment Process and Conditions</h3>
+<ul>
+The experiment is started by asking user for input choices to determine which mode the system should run. If the IOT mode was chosen, the experiment would perform primarily based on OpenChirp web platform. The specific details include sending commands remotely to turn on/off the devices then observing whether the physical system produce desired results.
+On the other hand, if the Automatic mode was chosen, the experiment is performed through several steps:
+    1.Rising temperatures and observing corresponding indicator and fan responses.
+    2.Hold to see the effect of heat dissipation by using the fan (measured by seconds)
+    3.Rising smoke density and observe buzzer and ventilation fan reponses.
+    4.Hold to see the effect of the expelation of the dangerous gas by ventilation fan. (seconds)
+    5.Periodically run sensor performance measurement
+</ul>
+<h3 id="problems-encountered">Monitoring Sensor Performance</h3>
+<ul>
+For the purpose of quantifying the temperature sensor(DHT11) performance, the project also implemented a second reference temperature sensor DS18B20, which discussed in previous section in detail.
+The performance measurements are based on descriptive statistical error analysis which treats the reference sensor data as ground truth and compare the temperature sensor data from DHT11 with the ground truth. The target is binary outcome that decide if the temperature sensor data have same result versus ground truth in determining whether the temperature is within the comfortable range mentioned in the previous section. The performance metrics is represented in terms of confusion metrics and further derived precision and recall scores.
+</ul>
+<h3 id="problems-encountered">Result</h3>
+<ul>
+The result for OpenChirp can be viewed via this link:
+</ul>
+        <div class="site-header">
+
+        <nav class="site-nav">
+          <a href="#" class="menu-icon">
+            <i class="fa fa-navicon fa-lg"></i>
+          </a>
+
+        <div class="trigger">
+            <a class="page-link" href="https://openchirp.io/home/device/5da3777a466cc60c381e0cab#visualization"> Openchirp</a>
+        </div>
+        </nav>
+        </div>
+</ul>
+The heat dissipation with fan uses 6s to cool down temperature and 15s without fan to cool down using room temperature. So there is a 60% effectiveness improvement when using the fan to reduce the temperature. Similarly, there is a 43% of  improvement to expel unsafe gas using the ventilation fan. Both precision and recall are mostly 100% to show the health condition of the temperature sensor.
+</ul>
+
+
+
+
 
 
 
