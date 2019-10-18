@@ -148,8 +148,10 @@ Physical devices integrated:
 <ul>
   We can see from the following table: the accuracy of DS18B20 is significantly higher than the accuracy of DTH11. In this case, we assume that the data collected by DS18B20 is ground truth. So we could do some data analysis by comparing the data collected by these two sensors, separately.
 </ul>
-
-
+<figure>
+  <img src="table.jpg" alt="The Pulpit Rock" width="304" height="228">
+</figure>
+<p><strong>Note:</strong> The table compares sensor characteristics between DHT11 and the reference data</p>
 
 
 
