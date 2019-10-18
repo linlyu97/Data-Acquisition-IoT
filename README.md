@@ -60,14 +60,14 @@ The phenomena of interest in our project include temperature, humidity and combu
 </ul>
 <p> Humidity</p>
 <ul>
-Humidity is the measure of water vapour present in the air. Humidity parameters are stated in diverse ways and the corresponding units are based on the measurement technique used. The most commonly used terms are “Relative Humidity RH”, “Parts Per Million (PPM)” by weight or by volume and “Dew/Frost Point (D/F PT)”, in which the two latter are subclasses of “Absolute Humidity (AB)”. What we use in this project is relative humidity. Relative Humidity (abbreviated as RH) is defined as the ratio of the amount of moisture content of air to the maximum (saturated) moisture level that the air can hold at the same given temperature and pressure of the gas. According to Thermal Environmental Conditions for Human Occupancy[1], the appropriate indoor humidity of human body is 40~60%, which we used in the algorithms.
+  Humidity is the measure of water vapour present in the air. Humidity parameters are stated in diverse ways and the corresponding units are based on the measurement technique used. The most commonly used terms are “Relative Humidity RH”, “Parts Per Million (PPM)” by weight or by volume and “Dew/Frost Point (D/F PT)”, in which the two latter are subclasses of “Absolute Humidity (AB)”. What we use in this project is relative humidity. Relative Humidity (abbreviated as RH) is defined as the ratio of the amount of moisture content of air to the maximum (saturated) moisture level that the air can hold at the same given temperature and pressure of the gas. According to Thermal Environmental Conditions for Human Occupancy[1], the appropriate indoor humidity of human body is 40~60%, which we used in the algorithms.
 </ul>
 <p>Combustible Gas</p>
-<ul>Combustible gases include natural gas, methane, butane, propane and hydrogen. Vapor density is one of the properties of combustible gas. The definition of it is the relative of the vapor as compared with air. It is calculated as the ratio of the molecular weight of the vapor to the molecular weight air.[2] In our project,  the gas density is represented in terms of voltage and converted into standard unit to describe gas density
-</ul>
-
+  <ul>
+    Combustible gases include natural gas, methane, butane, propane and hydrogen. Vapor density is one of the properties of combustible gas. The definition of it is the relative of the vapor as compared with air. It is calculated as the ratio of the molecular weight of the vapor to the molecular weight air.[2] In our project,  the gas density is represented in terms of voltage and converted into standard unit to describe gas density
+  </ul>
 <h3 id="2.2"> Static and Dynamic Behavior</h3>
-<ul>
+
 <p>Temperature</p>
 <ul>
   Temperature can be influenced by many factors, such as time and human activities. Temperature is usually low at midnight, decreasing in the early hours of the morning, and then increasing rapidly until just after midday. It then decreasing during the night. As for the human activities, the more people in the room, the more heat they radiate, and the temperature in the room would rise. Thus, read-time monitoring of room temperature is necessary.
@@ -137,7 +137,9 @@ Physical devices integrated:
     <li>The repeatability about temperature is  ±0.2°C </li>
 </ul>
 <p> DHT11Static behavior: Dynamic Behavior</p>
+  <ul>
     Lag: there is a lag between the changes in temperature or humidity intensity and resistance of sensor. However, this lag can be ignored.
+  </ul>
 <p> MQ-2: Sensitivity</p>
 <ul>
   MQ-2 gas sensor has high sensitivity to  combustible gas in wide range(300-10000ppm)[7] ,sensitivity=Rs(in air)/Rs(1000ppm isobutane)≥5
@@ -184,6 +186,7 @@ On the other hand, the expectation of the system when performing under Automatic
 <ul>
 The experiment is started by asking user for input choices to determine which mode the system should run. If the IOT mode was chosen, the experiment would perform primarily based on OpenChirp web platform. The specific details include sending commands remotely to turn on/off the devices then observing whether the physical system produce desired results.
 On the other hand, if the Automatic mode was chosen, the experiment is performed through several steps:
+</ul>
 <ol>
     <li>Rising temperatures and observing corresponding indicator and fan responses.</li>
     <li>Hold to see the effect of heat dissipation by using the fan (measured by seconds)</li>
@@ -191,7 +194,6 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
     <li>Hold to see the effect of the expelation of the dangerous gas by ventilation fan. (seconds)</li>
     <li>Periodically run sensor performance measurement</li>
 <ol>
-</ul>
 <h3 id="problems-encountered">Monitoring Sensor Performance</h3>
 <ul>
 For the purpose of quantifying the temperature sensor(DHT11) performance, the project also implemented a second reference temperature sensor DS18B20, which discussed in previous section in detail.
