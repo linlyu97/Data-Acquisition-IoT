@@ -26,8 +26,8 @@
   </header>
   <figure>
   <center>
-  <img src="pics/group.jpeg" width = "350" height = "250" class="center">
-  <figcaption> <strong>Figure 1:</strong> Our Team!!  </figcaption>
+  <img src="pics/group.jpeg" width = "400" height = "300" class="center">
+  <figcaption>  Our Team!!  </figcaption>
   </center>
   </figure>
 
@@ -179,7 +179,7 @@ From the table below, we can see that it has wide detecting scope, fast response
 <figure>
   <center>
     <img src="pics/mq-2.png" width = "420" height = "250"  class="center">
-    <figcaption> <strong>Figure 2:</strong> MQ-2 Sensor Data Sheet [6] </figcaption>
+    <figcaption> <strong>Figure 3:</strong> MQ-2 Sensor Data Sheet [6] </figcaption>
   </center>
 </figure>
 
@@ -199,14 +199,17 @@ From the table below, we can see that it has wide detecting scope, fast response
 <figure>
     <center>
     <img src="pics/setup.jpg" width = "400" height = "250" class="center">
-    <figcaption> <strong>Figure 3:</strong> Experiment Setup </figcaption>
+    <figcaption> <strong>Figure 4:</strong> Experiment Setup </figcaption>
     </center>
 </figure>
 
 <ul>
+ <p>
 The key expectation when user performing under IOT mode will be the ability to turn on/off the indications devices(led, fan, and buzzer) by remotely sending commands to the OpenChirp server and the ability to visualize real time series sensor data through OpenChirp web platform.
-
+</p>
+<p>
 On the other hand, the expectation of the system when performing under Automatic Mode will again based on various factors like those mentioned above. Generally, all devices remain static under comfort conditions and will start to take actions when sensing data is out of desired comfortable range. The specific action taken by the device is based on device type, for example the indicators will be turned on to serve as warning and fan will be turned on to dissipate the heat/smoke. More specifically, the red led is expected to be turned on when the indoor temperature exceeds the comfort temperature upperbond, and the fan will be turned on simountiously for the purpose of heat dissipation. Similarly, the blue led is expected to be turned on when the temperature is below the comfort temperature lower bond. The buzzer alarm will produce noise when gas level is above the safety threshold, and the ventilation fan will also simultaneously be turned on to help expeling unsafe gas.
+</p>
 </ul>
 <h3 id="problems-encountered">Experiment Process and Conditions</h3>
 <ul>
@@ -222,21 +225,25 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
 </ol>
 <h3 id="problems-encountered">Monitoring Sensor Performance</h3>
 <ul>
-  For the purpose of quantifying the temperature sensor(DHT11) performance, the project also implemented a second reference temperature sensor DS18B20, which discussed in previous section in detail.
-  The performance measurements are based on descriptive statistical error analysis which treats the reference sensor data as ground truth and compare the temperature sensor data from DHT11 with the ground truth. The target is binary outcome that decide if the temperature sensor data have same result versus ground truth in determining whether the temperature is within the comfortable range mentioned in the previous section. The performance metrics is represented in terms of confusion metrics and further derived precision and recall scores.
+  <p>
+    For the purpose of quantifying the temperature sensor(DHT11) performance, the project also implemented a second reference temperature sensor DS18B20, which discussed in previous section in detail.
+  </p>
+  <p>
+    The performance measurements are based on descriptive statistical error analysis which treats the reference sensor data as ground truth and compare the temperature sensor data from DHT11 with the ground truth. The target is binary outcome that decide if the temperature sensor data have same result versus ground truth in determining whether the temperature is within the comfortable range mentioned in the previous section. The performance metrics is represented in terms of confusion metrics and further derived precision and recall scores.
+  </p>
 </ul>
-</p>
-    <center>
-    <img src="pics/precision.png" width = "300" height = "500" class="center">
-    <figcaption> <strong>Figure 4:</strong> DHT11 accuracy monitoring</figcaption>
-    </center>
+
+  <center>
+  <img src="pics/precision.png" width = "300" height = "500" class="center">
+  <figcaption> <strong>Figure 5:</strong> DHT11 accuracy monitoring</figcaption>
+  </center>
 <p>
 <h3 id="problems-encountered">Result</h3>
 <ul>
 <figure>
     <center>
-    <img src="pics/openChirp.png" width = "1000" height = "350" class="center">
-    <figcaption> <strong>Figure 5:</strong> OpenChirp IOT real time sensor data monitoring</figcaption>
+    <img src="pics/openChirp.png" width = "1000" height = "400" class="center">
+    <figcaption> <strong>Figure 6:</strong> OpenChirp IOT real time sensor data monitoring</figcaption>
     </center>
 </figure>
 <p>Under IOT mode, users can have a real time monitoring sensor data as shown in the figure 3.</p>
@@ -245,8 +252,8 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
   Both precision and recall are presented in the openChirp to present a visulization of the sensor performance. If the sensor,DHT11, failed to recognize most of the cases, the reference sensor would replace the DHT11 to continue performing sensing.
 </p>
     <center>
-    <img src="pics/performance.png" width = "1000" height = "350" class="center">
-    <figcaption> <strong>Figure 6:</strong> DHT11 accuracy monitoring</figcaption>
+    <img src="pics/performance.png" width = "1000" height = "200" class="center">
+    <figcaption> <strong>Figure 7:</strong> DHT11 accuracy monitoring</figcaption>
     </center>
 </ul>
 
