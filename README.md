@@ -24,6 +24,12 @@
      <h1 class="post-title" style="text-align: center">Indoor Air Quality Monitoring System</h1>
      <p class="post-meta" > Group AA: Yu Du; Yuhang Liang; Lin Lyu</p>
   </header>
+  <figure>
+  <center>
+  <img src="pics/group.png" width = "350" height = "250" class="center">
+  <figcaption> <strong>Figure 1:</strong> Our Team!!  </figcaption>
+  </center>
+  </figure>
 
   <article class="post-content">
     <a class="page-link" href= "https://vimeo.com/user102996791/"> Video Link</a>
@@ -111,18 +117,24 @@ Physical devices integrated:
 <h3 id="3.1"> Physical Principle</h3>
 <p>DHT11</p>
 <ul>
-  <figure>
-    <center>
-    <img src="pics/dht11.png" width = "350" height = "250" class="center">
-    <figcaption> <strong>Figure 1:</strong> DHT11 sensor and characteristics </figcaption>
-    </center>
-</figure>
   DHT11 Temperature & Humidity Sensor features a temperature & humidity sensor complex with a calibrated digital signal output. This kind of sensor consists of a humidity sensing component, an NTC temperature sensor and an IC on the back side of it[3].
   For measuring humidity, we would use the humidity sensing component which has two electrodes with moisture holding substrate between them. So as the humidity changes, the conductivity of the substrate changes or the resistance between these electrodes changes. On the other hand, a NTC temperature sensor/Thermistor to measure temperature[4].
+  <figure>
+  <center>
+  <img src="pics/dht11.png" width = "350" height = "250" class="center">
+  <figcaption> <strong>Figure 1:</strong> DHT11 sensor and characteristics </figcaption>
+  </center>
+  </figure>
 </ul>
 <p> MQ-2 </p>
 <ul>
   MQ2 is one of the commonly used gas sensors in MQ sensor series. It is a Metal Oxide Semiconductor (MOS) type Gas Sensor also known as Chemiresistors, as the detection is based upon change of resistance of the sensing material when the Gas comes in contact with the material[5]. It uses a simple voltage divider network so that concentrations of gas can be detected.
+  <figure>
+  <center>
+  <img src="pics/mq2.png" width = "350" height = "250" class="center">
+  <figcaption> <strong>Figure 2:</strong> MQ-2 sensor and characteristics </figcaption>
+  </center>
+  </figure>
 </ul>
 <p> DS18B20 </p>
 <ul>
@@ -158,7 +170,7 @@ Physical devices integrated:
 </ul>
 <figure>
     <center>
-    <img src="pics/table.png" width = "350" height = "250" class="center">
+    <img src="pics/table.png" width = "350" height = "200" class="center">
     <figcaption> <strong>Table 1:</strong> Characteristics of DHT11 and the reference sensor  </figcaption>
     </center>
 </figure>
@@ -167,18 +179,21 @@ From the table below, we can see that it has wide detecting scope, fast response
 <figure>
   <center>
     <img src="pics/mq-2.png" width = "420" height = "250"  class="center">
-    <figcaption> <strong>Figure 2:</strong> MQ-2 Sensor Data Sheet  </figcaption>
+    <figcaption> <strong>Figure 2:</strong> MQ-2 Sensor Data Sheet [6] </figcaption>
   </center>
 </figure>
 
 <h2 id="problems-encountered">Experiment and Results</h2>
 <h3 id="problems-encountered">The “Two Mode”</h3>
 <ul>
-The experiment is designed from two perspectives: the “IOT Mode” and the “Automatic Mode”.
+<p>The experiment is designed from two perspectives: the “IOT Mode” and the “Automatic Mode”.</p>
 
-In the IOT Mode, the devices can establish remote communication with a web-based system architecture, OpenChirp, through communication protocol (MQTT, LP-WAN [2]) when presenting qualified authentication key. Users will, then, have the accessibility and flexibility to control the devices through either apps or web browser. The devices can be further controlled and visualized in various formats (i.e. time-series) by accessing this management  framework and the data were being stored at remote database at the same time.
-
-In the “Automatic Mode”, the sensing system will run locally and automatically, which can be accessed by other devices through local network protocol. Under this mode, no specific inputs are expected from users. The indication devices and physical devices within the system will be powered depends on the real-time sensing data and decision functions. The design of the decision functions take several factors into consideration including seasonality, comfort level, etc.
+<p>
+  In the IOT Mode, the devices can establish remote communication with a web-based system architecture, OpenChirp, through communication protocol (MQTT, LP-WAN [2]) when presenting qualified authentication key. Users will, then, have the accessibility and flexibility to control the devices through either apps or web browser. The devices can be further controlled and visualized in various formats (i.e. time-series) by accessing this management  framework and the data were being stored at remote database at the same time.
+</p>
+<p>
+  In the “Automatic Mode”, the sensing system will run locally and automatically, which can be accessed by other devices through local network protocol. Under this mode, no specific inputs are expected from users. The indication devices and physical devices within the system will be powered depends on the real-time sensing data and decision functions. The design of the decision functions take several factors into consideration including seasonality, comfort level, etc.
+</p>
 </ul>
 <h3 id="problems-encountered">Experiment Expectations</h3>
 <figure>
@@ -210,27 +225,27 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
   For the purpose of quantifying the temperature sensor(DHT11) performance, the project also implemented a second reference temperature sensor DS18B20, which discussed in previous section in detail.
   The performance measurements are based on descriptive statistical error analysis which treats the reference sensor data as ground truth and compare the temperature sensor data from DHT11 with the ground truth. The target is binary outcome that decide if the temperature sensor data have same result versus ground truth in determining whether the temperature is within the comfortable range mentioned in the previous section. The performance metrics is represented in terms of confusion metrics and further derived precision and recall scores.
 </ul>
+</p>
+    <center>
+    <img src="pics/precision.png" width = "300" height = "500" class="center">
+    <figcaption> <strong>Figure 4:</strong> DHT11 accuracy monitoring</figcaption>
+    </center>
+<p>
 <h3 id="problems-encountered">Result</h3>
 <ul>
 <figure>
     <center>
-    <img src="pics/openChirp.png" width = "1000" height = "250" class="center">
-    <figcaption> <strong>Figure 4:</strong> OpenChirp IOT real time sensor data monitoring</figcaption>
+    <img src="pics/openChirp.png" width = "1000" height = "350" class="center">
+    <figcaption> <strong>Figure 5:</strong> OpenChirp IOT real time sensor data monitoring</figcaption>
     </center>
 </figure>
 <p>Under IOT mode, users can have a real time monitoring sensor data as shown in the figure 3.</p>
 <p>
   Under the automatic mode, the heat dissipation with fan uses 6s to cool down temperature and 15s without fan to cool down using room temperature. So there is a 60% effectiveness improvement when using the fan to reduce the temperature. Similarly, there is a 43% of  improvement to expel unsafe gas using the ventilation fan. Both precision and recall are mostly 100% to show the health condition of the temperature sensor.
-</p>
-    <center>
-    <img src="pics/precision.png" width = "300" height = "500" class="center">
-    <figcaption> <strong>Figure 5:</strong> DHT11 accuracy monitoring</figcaption>
-    </center>
-<p>
   Both precision and recall are presented in the openChirp to present a visulization of the sensor performance. If the sensor,DHT11, failed to recognize most of the cases, the reference sensor would replace the DHT11 to continue performing sensing.
 </p>
     <center>
-    <img src="pics/performance.png" width = "1000" height = "250" class="center">
+    <img src="pics/performance.png" width = "1000" height = "350" class="center">
     <figcaption> <strong>Figure 6:</strong> DHT11 accuracy monitoring</figcaption>
     </center>
 </ul>
@@ -245,7 +260,8 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
 <p> [3] Dejan. “DHT11 & DHT22 Sensors Temperature and Humidity Tutorial using Arduino”, March, 2016, <a href="https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/.">https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/.</a></p>
 <p> [4] Last Minute ENGINEERS, “How DHT11 DHT22 Sensors Work & Interface With Arduino” <a href="https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/.">https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/.</a></p>
 <p> [5] Last Minute ENGINEERS, “Interfacing DS18B20 1-Wire Digital Temperature Sensor with Arduino”, <a href="https://lastminuteengineers.com/ds18b20-arduino-tutorial/.">https://lastminuteengineers.com/ds18b20-arduino-tutorial/.</a></p>
-<p> [6] Hanwei Electronics CO.,LTD, Technical Data MQ-2 Gas Sensor.</p>
+<p> [6] Hanwei Electronics CO.,LTD, Technical Data MQ-2 Gas Sensor.<a href="https://lastminuteengineers.com/ds18b20-arduino-tutorial/.">https://lastminuteengineers.com/ds18b20-arduino-tutorial/.</a></p>
+<p> [7] MQ-2 Semiconductor Sensor for Combustible Gas<a href="https://www.pololu.com/file/0J309/MQ2.pdf">https://www.pololu.com/file/0J309/MQ2.pdf</a></p>
 
   <div align="center">
   	<a href="#">
