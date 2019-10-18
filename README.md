@@ -152,12 +152,14 @@ Physical devices integrated:
     <center>
     <img src="pics/table.png" width = "420" height = "250" class="center">
     </center>
-    <figcaption> <strong>Figure 1:</strong>The table compares sensor characteristics between DHT11 and the reference data  </figcaption>
+    <figcaption> <strong>Table 1:</strong> Differences characteristics between DHT11 and the reference sensor  </figcaption>
 </figure>
 <p> MQ-2</p>
 <figure>
+  <center>
     <img src="pics/mq-2.png" width = "420" height = "250"  class="center">
-    <figcaption> <strong>Figure 2:</strong>The table compares sensor characteristics between DHT11 and the reference data  </figcaption>
+    <figcaption> <strong>Figure 2:</strong> MQ-2 Sensor Data Sheet  </figcaption>
+  </center>
 </figure>
 
 </ul>
