@@ -26,7 +26,7 @@
   </header>
   <figure>
   <center>
-  <img src="pics/group.png" width = "350" height = "250" class="center">
+  <img src="pics/group.jpeg" width = "350" height = "250" class="center">
   <figcaption> <strong>Figure 1:</strong> Our Team!!  </figcaption>
   </center>
   </figure>
@@ -261,7 +261,7 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
 <p> [4] Last Minute ENGINEERS, “How DHT11 DHT22 Sensors Work & Interface With Arduino” <a href="https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/.">https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/.</a></p>
 <p> [5] Last Minute ENGINEERS, “Interfacing DS18B20 1-Wire Digital Temperature Sensor with Arduino”, <a href="https://lastminuteengineers.com/ds18b20-arduino-tutorial/.">https://lastminuteengineers.com/ds18b20-arduino-tutorial/.</a></p>
 <p> [6] Hanwei Electronics CO.,LTD, Technical Data MQ-2 Gas Sensor.<a href="https://lastminuteengineers.com/ds18b20-arduino-tutorial/.">https://lastminuteengineers.com/ds18b20-arduino-tutorial/.</a></p>
-<p> [7] MQ-2 Semiconductor Sensor for Combustible Gas<a href="https://www.pololu.com/file/0J309/MQ2.pdf">https://www.pololu.com/file/0J309/MQ2.pdf</a></p>
+<p> [7] MQ-2 Semiconductor Sensor for Combustible Gas<a href="https://www.pololu.com/file/0J309/MQ2.pdf"> https://www.pololu.com/file/0J309/MQ2.pdf</a></p>
 
   <div align="center">
   	<a href="#">
