@@ -27,7 +27,7 @@
 
   <article class="post-content">
     <a class="page-link" href= "https://vimeo.com/user102996791/"> Video Link</a>
-
+    <a class="page-link" href="https://openchirp.io/home/device/5da3777a466cc60c381e0cab#visualization"> Openchirp</a>
 <hr />
 <h2 id="introduction">Introduction</h2>
 <ul>
@@ -152,7 +152,7 @@ Physical devices integrated:
     <center>
     <img src="pics/table.png" width = "420" height = "250" class="center">
     </center>
-    <figcaption> <strong>Table 1:</strong> Differences characteristics between DHT11 and the reference sensor  </figcaption>
+    <figcaption> <strong>Table 1:</strong> Characteristics of DHT11 and the reference sensor  </figcaption>
 </figure>
 <p> MQ-2</p>
 <figure>
@@ -195,43 +195,25 @@ For the purpose of quantifying the temperature sensor(DHT11) performance, the pr
 The performance measurements are based on descriptive statistical error analysis which treats the reference sensor data as ground truth and compare the temperature sensor data from DHT11 with the ground truth. The target is binary outcome that decide if the temperature sensor data have same result versus ground truth in determining whether the temperature is within the comfortable range mentioned in the previous section. The performance metrics is represented in terms of confusion metrics and further derived precision and recall scores.
 </ul>
 <h3 id="problems-encountered">Result</h3>
-<ul>
-The result for OpenChirp can be viewed via this link:
-</ul>
-        <div class="site-header">
-
-        <nav class="site-nav">
-          <a href="#" class="menu-icon">
-            <i class="fa fa-navicon fa-lg"></i>
-          </a>
-
-        <div class="trigger">
-            <a class="page-link" href="https://openchirp.io/home/device/5da3777a466cc60c381e0cab#visualization"> Openchirp</a>
-        </div>
-        </nav>
-        </div>
 </ul>
 The heat dissipation with fan uses 6s to cool down temperature and 15s without fan to cool down using room temperature. So there is a 60% effectiveness improvement when using the fan to reduce the temperature. Similarly, there is a 43% of  improvement to expel unsafe gas using the ventilation fan. Both precision and recall are mostly 100% to show the health condition of the temperature sensor.
 </ul>
 
-
-
-
-
-
-
-<h2 id="future-plan">Reference</h2>
-<ul>
+<h2 id="problems-encountered">Reference</h2>
 <p>
-[1] ASHRAE, Thermal Environmental Conditions for Human Occupancy, American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASRHAE Standard 55-1992), Atlanta, 1992.
-[2] Fundamentals of Combustible Gas Detection
-[3] https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/
-[4] https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/
-[5] https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/
-[6] https://lastminuteengineers.com/ds18b20-arduino-tutorial/
-[7] https://www.mouser.com/datasheet/2/321/605-00008-MQ-2-Datasheet-370464.pdf
+  [1] ASHRAE, Thermal Environmental Conditions for Human Occupancy, American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASRHAE Standard 55-1992), Atlanta, 1992.
+
+  [2] Technical Staff of General Monitors, Fundamentals of Combustible Gas Detection
+
+  [3] Dejan. “DHT11 & DHT22 Sensors Temperature and Humidity Tutorial using Arduino”, March, 2016, https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/.
+
+  [4] Last Minute ENGINEERS, “How DHT11 DHT22 Sensors Work & Interface With Arduino”,  https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/.
+
+  [5] Last Minute ENGINEERS, “Interfacing DS18B20 1-Wire Digital Temperature Sensor with Arduino”, https://lastminuteengineers.com/ds18b20-arduino-tutorial/.
+
+  [6] Hanwei Electronics CO.,LTD, Technical Data MQ-2 Gas Sensor.
+
 </p>
-</ul>
 
 
 
