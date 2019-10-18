@@ -165,8 +165,6 @@ From the table below, we can see that it has wide detecting scope, fast response
   </center>
 </figure>
 
-</ul>
-
 <h2 id="problems-encountered">Experiment and Results</h2>
 <h3 id="problems-encountered">The “Two Mode”</h3>
 <ul>
