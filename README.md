@@ -197,35 +197,22 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
 </ol>
 <h3 id="problems-encountered">Monitoring Sensor Performance</h3>
 <ul>
-For the purpose of quantifying the temperature sensor(DHT11) performance, the project also implemented a second reference temperature sensor DS18B20, which discussed in previous section in detail.
-The performance measurements are based on descriptive statistical error analysis which treats the reference sensor data as ground truth and compare the temperature sensor data from DHT11 with the ground truth. The target is binary outcome that decide if the temperature sensor data have same result versus ground truth in determining whether the temperature is within the comfortable range mentioned in the previous section. The performance metrics is represented in terms of confusion metrics and further derived precision and recall scores.
+  For the purpose of quantifying the temperature sensor(DHT11) performance, the project also implemented a second reference temperature sensor DS18B20, which discussed in previous section in detail.
+  The performance measurements are based on descriptive statistical error analysis which treats the reference sensor data as ground truth and compare the temperature sensor data from DHT11 with the ground truth. The target is binary outcome that decide if the temperature sensor data have same result versus ground truth in determining whether the temperature is within the comfortable range mentioned in the previous section. The performance metrics is represented in terms of confusion metrics and further derived precision and recall scores.
 </ul>
 <h3 id="problems-encountered">Result</h3>
 </ul>
 The heat dissipation with fan uses 6s to cool down temperature and 15s without fan to cool down using room temperature. So there is a 60% effectiveness improvement when using the fan to reduce the temperature. Similarly, there is a 43% of  improvement to expel unsafe gas using the ventilation fan. Both precision and recall are mostly 100% to show the health condition of the temperature sensor.
 </ul>
 
+
 <h2 id="problems-encountered">Reference</h2>
-<p>
-  [1] ASHRAE, Thermal Environmental Conditions for Human Occupancy, American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASRHAE Standard 55-1992), Atlanta, 1992.
-</p>
-<p>
-  [2] Technical Staff of General Monitors, Fundamentals of Combustible Gas Detection
-</p>
-<p>
-  [3] Dejan. “DHT11 & DHT22 Sensors Temperature and Humidity Tutorial using Arduino”, March, 2016, https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/.
-</p>
-<p>
-  [4] Last Minute ENGINEERS, “How DHT11 DHT22 Sensors Work & Interface With Arduino”,  https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/.
-</p>
-<p>
-  [5] Last Minute ENGINEERS, “Interfacing DS18B20 1-Wire Digital Temperature Sensor with Arduino”, https://lastminuteengineers.com/ds18b20-arduino-tutorial/.
-</p>
-<p>
-  [6] Hanwei Electronics CO.,LTD, Technical Data MQ-2 Gas Sensor.
-</p>
-
-
+<p> [1] ASHRAE, Thermal Environmental Conditions for Human Occupancy, American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASRHAE Standard 55-1992), Atlanta, 1992.</p>
+<p> [2] Technical Staff of General Monitors, Fundamentals of Combustible Gas Detection.</p>
+<p> [3] Dejan. “DHT11 & DHT22 Sensors Temperature and Humidity Tutorial using Arduino”, March, 2016, <a href="https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/.">https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/.</a></p>
+<p> [4] Last Minute ENGINEERS, “How DHT11 DHT22 Sensors Work & Interface With Arduino” <a href="https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/.">https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/.</a></p>
+<p> [5] Last Minute ENGINEERS, “Interfacing DS18B20 1-Wire Digital Temperature Sensor with Arduino”, <a href="https://lastminuteengineers.com/ds18b20-arduino-tutorial/.">https://lastminuteengineers.com/ds18b20-arduino-tutorial/.</a></p>
+<p> [6] Hanwei Electronics CO.,LTD, Technical Data MQ-2 Gas Sensor.</p>
 
   <div align="center">
   	<a href="#">
