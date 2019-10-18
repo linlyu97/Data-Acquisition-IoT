@@ -150,7 +150,7 @@ Physical devices integrated:
 </ul>
 <figure>
     <center>
-    <img src="pics/table.png" width = "400" height = "320" alt="Figure 1: Initial setup for the smoke and humidity sensor" align="middle">
+    <img src="pics/table.png" width = "420" height = "250" alt="Figure 1: Initial setup for the smoke and humidity sensor" align="middle">
     <figcaption> <strong>Figure 1:</strong>The table compares sensor characteristics between DHT11 and the reference data  </figcaption>
     </center>
   </figure>
