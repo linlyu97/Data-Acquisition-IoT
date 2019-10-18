@@ -78,6 +78,7 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
   
   <h2 id="future-plan">Reference</h2>
   <ul>
+    <p>
     [1] ASHRAE, Thermal Environmental Conditions for Human Occupancy, American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASRHAE Standard 55-1992), Atlanta, 1992.
     [2] Fundamentals of Combustible Gas Detection
     [3] https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/
@@ -85,6 +86,7 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
     [5] https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/
     [6] https://lastminuteengineers.com/ds18b20-arduino-tutorial/
     [7] https://www.mouser.com/datasheet/2/321/605-00008-MQ-2-Datasheet-370464.pdf
+    </p>
   </ul>
 
   </article>
