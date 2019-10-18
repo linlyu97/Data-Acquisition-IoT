@@ -26,62 +26,52 @@
   </header>
 
   <article class="post-content">
-    <p>video link: under construction ...</p>
+    <p>https://vimeo.com/user102996791/review/367173414/cb3d1d712a</p>
 
 <hr />
 <h2 id="introduction">Introduction</h2>
 <ul>
-This project is designed to produce an integrated indoor air quality real-time monitoring system prototype. The system will utilize a multi sensor system that placed at different locations within a relatively closed environment and measure relevant quantities such that could provide insights to the environment air conditions.
+  This project is designed to simulate an integrated indoor air quality real-time monitoring system prototype. The system will utilize a multi sensor system that placed at different locations within a closed environment and measure relevant quantities such that could provide insights to the environment air conditions. The project also enabled the IOT features such that it allows users to manipulate and visualize smart devices status using web-based platform.
 </ul>
 
-<h2 id="motivation">Motivation</h2>
+<h3 id="motivation">Motivation</h3>
 <ul>
-  Having a good air-quality real time control is extremely important for everyone of us, we sometimes struggle with all different types of sensors we have to buy and install for our house. Lacking an integrated sensing system in the marketplace seems obvious to us,  and our project is designed to resolve this issue that helps residents to dynamically monitor the indoor air condition.
+  Having a good air-quality real time control is extremely important for everyone of us, we sometimes struggle with all different types of sensors we have to buy and install for our house. Lacking an integrated sensing system in the marketplace seems obvious to us. Meanwhile, as people go after high intelligent life, intelligence of household, which can help us efficiently and easily to process and monitor the sensors data obtained, also appears particularly necessary. Therefore, our project is designed to resolve the issue that helps residents to dynamically monitor the indoor air condition visually feedback the current air quality.
 </ul>
 
-<h2 id="goals">Goals</h2>
+<h3 id="goals">Goals</h3>
 <ul>
-  The proposed outcome of the project will be real-time data collecting system and an alter system dynamically suggest the user to take proper action when any one of the measurements go beyond the theoretical healthy standard.
-  The vision of the project is to lay a foundation for IOT system that user can change the indoor conditions using smart devices. (subject to change based on schedule)
+The proposed outcome of the project will be real-time data collecting system and an alter system dynamically suggest the user to take proper action when any one of the measurements go beyond the theoretical healthy standard.
+The vision of the project is to lay a foundation for IOT and automatic system that user can change the indoor conditions using smart devices. The front end of our data acquisition system are different sensors, from which monitoring data of air can be obtained. The system compares precision and recall to ensure the accuracy of data by using a reference sensor to serve as ground truth. Then legal data can also be visualized through OpenChirp so that users can directly see the change of air quality in a day using a web browser or other smart devices, and can be used to change the status of the smart devices based on individual users’ preferences.
 </ul>
-
 <hr />
-<!-- <h2 id="for-progress-report">For Progress Report</h2>
- --><h2 id="current-progress">Current Progress</h2>
+
+<h2 id="Phenomena of Interests"> Phenomena of Interests </h2>
 <ul>
-  Currently, we have completed the setup of the sensing system for both temperature, humidity, and smoke measurements. The details of the setup is shown in figure 1. In addition, we have prepared created a closed cubic environment (chipboard box) with two  5cm  x 5 cm window with flexibility to open or close, which served as two windows and also served as input channel of our variables( hot wind from hair blower and humidity from humidifier)
-
-  <figure>
-    <center>
-    <img src="pics/setup1.jpeg" width = "400" height = "320" alt="Figure 1: Initial setup for the smoke and humidity sensor" align="middle">
-    <figcaption> Figure 1: Initial setup for the smoke and humidity sensor </figcaption>
-    </center>
-  </figure>
-
-  <p>In terms of data collecting, we have collected the source code from various websites and merged/modified some of them to output the desired data format we are looking for. The 10 minutes time window was used first time as testing and the result data range falls into the expectations.</p>
-
-  <p>The things we have learned so far outside of the class involves how to setup experiment environment, learn the process of how to test our hypothesis using statistical tests. We also learned how to setup the specific sensors configurations and how to potentially collecting different data at the same time.</p>
-
+The phenomena of interest in our project include temperature, humidity and combustible gas concentration of air in the room.
 </ul>
 
-<h2 id="problems-encountered">Problems Encountered</h2>
+<h3 id >
+
+<h2 id="2.1"> Physical Principles</h2>
 <ul>
-  <p>The problems we have encountered can be categorized into two sections: implementation point of view and project design point of view.
-  </p>
-  <li> Implementation point of view</li>
-    <p> Our design utilized a smoke sensor, specifically the MQ-2, that is used to detect for combustible gas and smoke. The source of generating of combustible or smoke is our biggest concern so far because it both hard to find source and exists potential safety issues. For the temperature and humidity variables, we have come up ways to input the changes into our environment but haven’t implement as such, however, we do expect some difficulties that come up during the process.
-    </p>
-
-  <li> project design point of view </li>
-  <p>
-    The issue related to this topic is from a high level point of view. We are not sure if the scope of our project is within the course expectations.  Since we measurements don’t related to any frequency domain measurements, which we have covered in the class, we do have this concern and we may, adjust our project after talking to TAs and professor.
-  </p>
-
+<p>Temperature</p>
+<ul>Temperature is a physical quantity expressing hot and cold. If the room temperature is too low, the body's heat will be lost to the air too much, and people will feel cold, which reflects the necessity of appropriate room temperature. In this project, what we consider most is room temperature, which is the range of air temperature that most people prefer for indoor settings. According to Thermal Environmental Conditions for Human Occupancy[1], the appropriate indoor temperature of human body in summer is 23~26℃, and 20~23.5℃ in winter. In this project, we will dynamically make decisions based on current seasonality.
 </ul>
+<p> Humidity</p>
+<ul>
+Humidity is the measure of water vapour present in the air. Humidity parameters are stated in diverse ways and the corresponding units are based on the measurement technique used. The most commonly used terms are “Relative Humidity RH”, “Parts Per Million (PPM)” by weight or by volume and “Dew/Frost Point (D/F PT)”, in which the two latter are subclasses of “Absolute Humidity (AB)”. What we use in this project is relative humidity. Relative Humidity (abbreviated as RH) is defined as the ratio of the amount of moisture content of air to the maximum (saturated) moisture level that the air can hold at the same given temperature and pressure of the gas. According to Thermal Environmental Conditions for Human Occupancy[1], the appropriate indoor humidity of human body is 40~60%, which we used in the algorithms.
+</ul>
+<p>Combustible Gas</p>
+<ul>Combustible gases include natural gas, methane, butane, propane and hydrogen. Vapor density is one of the properties of combustible gas. The definition of it is the relative of the vapor as compared with air. It is calculated as the ratio of the molecular weight of the vapor to the molecular weight air.[2] In our project,  the gas density is represented in terms of voltage and converted into standard unit to describe gas density
+</ul>
+
+
 
 <h2 id="future-plan">Future Plan</h2>
 <ul>
-  In the next two weeks, we are planning first to make the experiment conditions better such as using type to protect the paper box because our project involves with humidity and changing such variables may cause damage to the environment.  Further, we will embed sensors in the system and changing the variables to see how our data changes corresponding to the variable changes. We also plan to talk to the professor to see if he has any suggestions for the project.
+
+
 </ul>
 
 
