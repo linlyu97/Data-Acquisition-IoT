@@ -161,7 +161,7 @@ From the table below, we can see that it has wide detecting scope, fast response
 <figure>
   <center>
     <img src="pics/mq-2.png" width = "420" height = "250"  class="center">
-    <figcaption> <strong>Figure 2:</strong> MQ-2 Sensor Data Sheet  </figcaption>
+    <figcaption> <strong>Figure 1:</strong> MQ-2 Sensor Data Sheet  </figcaption>
   </center>
 </figure>
 
@@ -177,9 +177,9 @@ In the “Automatic Mode”, the sensing system will run locally and automatical
 <h3 id="problems-encountered">Experiment Expectations</h3>
 <figure>
     <center>
-    <img src="pics/setup.png" width = "400" height = "250" class="center">
+    <img src="pics/setup.jpg" width = "400" height = "250" class="center">
     </center>
-    <figcaption> <strong>Figure 1:</strong> Experiment Setup </figcaption>
+    <figcaption> <strong>Figure 2:</strong> Experiment Setup </figcaption>
 </figure>
 <ul>
 The key expectation when user performing under IOT mode will be the ability to turn on/off the indications devices(led, fan, and buzzer) by remotely sending commands to the OpenChirp server and the ability to visualize real time series sensor data through OpenChirp web platform.
