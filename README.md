@@ -21,7 +21,7 @@
       <div class="post">
 
   <header class="post-header">
-     <h1 class="post-title" style="text-align: center">Indoor Air Quality Monitoring System </h1>
+     <h1 class="post-title" style="text-align: center">Indoor Air Quality Monitoring System - Progress Report</h1>
      <p class="post-meta" > Group AA: Yu Du; Yuhang Liang; Lin Lyu</p>
   </header>
 
@@ -65,8 +65,6 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
 <p>Combustible Gas</p>
 <ul>Combustible gases include natural gas, methane, butane, propane and hydrogen. Vapor density is one of the properties of combustible gas. The definition of it is the relative of the vapor as compared with air. It is calculated as the ratio of the molecular weight of the vapor to the molecular weight air.[2] In our project,  the gas density is represented in terms of voltage and converted into standard unit to describe gas density
 </ul>
-
-
 
 <h2 id="future-plan">Future Plan</h2>
 <ul>
