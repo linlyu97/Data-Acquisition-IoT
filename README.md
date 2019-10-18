@@ -155,6 +155,7 @@ Physical devices integrated:
     <figcaption> <strong>Table 1:</strong> Characteristics of DHT11 and the reference sensor  </figcaption>
 </figure>
 <p> MQ-2</p>
+From the table below, we can see that it has wide detecting scope, fast response and high sensitivity.
 <figure>
   <center>
     <img src="pics/mq-2.png" width = "420" height = "250"  class="center">
@@ -183,11 +184,13 @@ On the other hand, the expectation of the system when performing under Automatic
 <ul>
 The experiment is started by asking user for input choices to determine which mode the system should run. If the IOT mode was chosen, the experiment would perform primarily based on OpenChirp web platform. The specific details include sending commands remotely to turn on/off the devices then observing whether the physical system produce desired results.
 On the other hand, if the Automatic mode was chosen, the experiment is performed through several steps:
-    1.Rising temperatures and observing corresponding indicator and fan responses.
-    2.Hold to see the effect of heat dissipation by using the fan (measured by seconds)
-    3.Rising smoke density and observe buzzer and ventilation fan reponses.
-    4.Hold to see the effect of the expelation of the dangerous gas by ventilation fan. (seconds)
-    5.Periodically run sensor performance measurement
+<ol>
+    <li>Rising temperatures and observing corresponding indicator and fan responses.</li>
+    <li>Hold to see the effect of heat dissipation by using the fan (measured by seconds)</li>
+    <li>Rising smoke density and observe buzzer and ventilation fan reponses.</li>
+    <li>Hold to see the effect of the expelation of the dangerous gas by ventilation fan. (seconds)</li>
+    <li>Periodically run sensor performance measurement</li>
+<ol>
 </ul>
 <h3 id="problems-encountered">Monitoring Sensor Performance</h3>
 <ul>
@@ -202,17 +205,21 @@ The heat dissipation with fan uses 6s to cool down temperature and 15s without f
 <h2 id="problems-encountered">Reference</h2>
 <p>
   [1] ASHRAE, Thermal Environmental Conditions for Human Occupancy, American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASRHAE Standard 55-1992), Atlanta, 1992.
-
+</p>
+<p>
   [2] Technical Staff of General Monitors, Fundamentals of Combustible Gas Detection
-
+</p>
+<p>
   [3] Dejan. “DHT11 & DHT22 Sensors Temperature and Humidity Tutorial using Arduino”, March, 2016, https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/.
-
+</p>
+<p>
   [4] Last Minute ENGINEERS, “How DHT11 DHT22 Sensors Work & Interface With Arduino”,  https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/.
-
+</p>
+<p>
   [5] Last Minute ENGINEERS, “Interfacing DS18B20 1-Wire Digital Temperature Sensor with Arduino”, https://lastminuteengineers.com/ds18b20-arduino-tutorial/.
-
+</p>
+<p>
   [6] Hanwei Electronics CO.,LTD, Technical Data MQ-2 Gas Sensor.
-
 </p>
 
 
@@ -223,10 +230,10 @@ The heat dissipation with fan uses 6s to cool down temperature and 15s without f
   	</a>
   </div>
 
-  </div>
+ <!--  </div>
 
   </div>
-  </div>
+  </div> -->
 
   <div class="footer center">
 
