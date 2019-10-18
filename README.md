@@ -66,6 +66,7 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
 <ul>Combustible gases include natural gas, methane, butane, propane and hydrogen. Vapor density is one of the properties of combustible gas. The definition of it is the relative of the vapor as compared with air. It is calculated as the ratio of the molecular weight of the vapor to the molecular weight air.[2] In our project,  the gas density is represented in terms of voltage and converted into standard unit to describe gas density
 </ul>
 
+<<<<<<< HEAD
 <h3 id="2.2"> Static and Dynamic Behavior</h3>
 <ul>
 <p>Temperature</p>
@@ -166,8 +167,30 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
 
 
 
+=======
+>>>>>>> 5b2953cd5b9ffb458f25e5f309f8f6989e44734e
 </ul>
-
+  
+  <h2 id="problems-encountered">Conclusion</h2>
+  <ul>
+    <p>
+      Our final project establishes IOT mode and automatic mode respectively. In IOT mode, users can independently control appliances, such as LED and fans, through OpenChirp. In automatic mode, the system can through the preset python program, through the DHT11 Temperature & humidity sensor module and gas smoke sensor module to real-time monitor the indoor temperature, humidity and combustible gas concentration; Raspberry Pi processes the collected data and makes corresponding instructions through buzzer alarm sensor module, LED, etc. What's more, the accuracy of collected data is checked by the precision and recall of real-time calculation.
+    </p>
+   
+  </ul>
+  
+  <h2 id="future-plan">Reference</h2>
+  <ul>
+    <p>
+    [1] ASHRAE, Thermal Environmental Conditions for Human Occupancy, American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASRHAE Standard 55-1992), Atlanta, 1992.
+    [2] Fundamentals of Combustible Gas Detection
+    [3] https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/
+    [4] https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/
+    [5] https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/
+    [6] https://lastminuteengineers.com/ds18b20-arduino-tutorial/
+    [7] https://www.mouser.com/datasheet/2/321/605-00008-MQ-2-Datasheet-370464.pdf
+    </p>
+  </ul>
 
   </article>
 
