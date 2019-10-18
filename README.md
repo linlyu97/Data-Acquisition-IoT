@@ -98,17 +98,13 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
   <li>MQ-2</li>
   <li>DS18B20 (Reference)</li>
 </ul>
-<ul>
   The indication devices includes:
-</ul>
-<ul>
+<ul style="list-style-type:circle;">
   <li> Leds in different colors(blue and red) </li>
   <li>Buzzer Module</li>
 </ul>
-<ul>
-  Physical devices integrated:
-</ul>
-<ul>
+Physical devices integrated:
+<ul style="list-style-type:circle;">
   <li> Ventilation fan</li>
   <li> Heat dissipation fan</li>
 </ul>
@@ -136,15 +132,12 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
   The accuracy of humidity is ±5% and The accuracy of temperature is ±2°C.
 </ul>
 <p> DHT11Static behavior: Repeatablility</p>
-<ul>
+<ul style="list-style-type:circle;">
     <li>The repeatability about humidity is  ±1% </li>
     <li>The repeatability about temperature is  ±0.2°C </li>
 </ul>
 <p> DHT11Static behavior: Dynamic Behavior</p>
-  <ul>
     Lag: there is a lag between the changes in temperature or humidity intensity and resistance of sensor. However, this lag can be ignored.
-  </ul>
-
 <p> MQ-2: Sensitivity</p>
 <ul>
   MQ-2 gas sensor has high sensitivity to  combustible gas in wide range(300-10000ppm)[7] ,sensitivity=Rs(in air)/Rs(1000ppm isobutane)≥5
@@ -162,12 +155,6 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
 
 <h2 id="future-plan">Future Plan</h2>
 <ul>
-
-
-
-=======
->>>>>>> 5b2953cd5b9ffb458f25e5f309f8f6989e44734e
-</ul>
 
 <h2 id="problems-encountered">Conclusion</h2>
 <ul>
