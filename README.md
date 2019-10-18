@@ -44,7 +44,6 @@
 The proposed outcome of the project will be real-time data collecting system and an alter system dynamically suggest the user to take proper action when any one of the measurements go beyond the theoretical healthy standard.
 The vision of the project is to lay a foundation for IOT and automatic system that user can change the indoor conditions using smart devices. The front end of our data acquisition system are different sensors, from which monitoring data of air can be obtained. The system compares precision and recall to ensure the accuracy of data by using a reference sensor to serve as ground truth. Then legal data can also be visualized through OpenChirp so that users can directly see the change of air quality in a day using a web browser or other smart devices, and can be used to change the status of the smart devices based on individual users’ preferences.
 </ul>
-<hr />
 
 <h2 id="Phenomena of Interests"> Phenomena of Interests </h2>
 <ul>
@@ -54,7 +53,7 @@ The phenomena of interest in our project include temperature, humidity and combu
 <h3 id >
 
 <h3 id="2.1"> Physical Principles</h3>
-<ul>
+
 <p>Temperature</p>
   <ul>
     Temperature is a physical quantity expressing hot and cold. If the room temperature is too low, the body's heat will be lost to the air too much, and people will feel cold, which reflects the necessity of appropriate room temperature. In this project, what we consider most is room temperature, which is the range of air temperature that most people prefer for indoor settings. According to Thermal Environmental Conditions for Human Occupancy[1], the appropriate indoor temperature of human body in summer is 23~26℃, and 20~23.5℃ in winter. In this project, we will dynamically make decisions based on current seasonality.
@@ -143,7 +142,7 @@ Physical devices integrated:
   </ul>
 <p> MQ-2: Sensitivity</p>
 <ul>
-  MQ-2 gas sensor has high sensitivity to  combustible gas in wide range(300-10000ppm)[7] ,sensitivity=Rs(in air)/Rs(1000ppm isobutane)≥5
+  MQ-2 gas sensor has high sensitivity to  combustible gas in wide range(300-10000ppm)[6] ,sensitivity=Rs(in air)/Rs(1000ppm isobutane)≥5
 </ul>
 
 <h3 id="3.3"> Sensor Characteristics Discussions</h3>
@@ -201,7 +200,7 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
   The performance measurements are based on descriptive statistical error analysis which treats the reference sensor data as ground truth and compare the temperature sensor data from DHT11 with the ground truth. The target is binary outcome that decide if the temperature sensor data have same result versus ground truth in determining whether the temperature is within the comfortable range mentioned in the previous section. The performance metrics is represented in terms of confusion metrics and further derived precision and recall scores.
 </ul>
 <h3 id="problems-encountered">Result</h3>
-</ul>
+<ul>
 The heat dissipation with fan uses 6s to cool down temperature and 15s without fan to cool down using room temperature. So there is a 60% effectiveness improvement when using the fan to reduce the temperature. Similarly, there is a 43% of  improvement to expel unsafe gas using the ventilation fan. Both precision and recall are mostly 100% to show the health condition of the temperature sensor.
 </ul>
 
@@ -229,7 +228,3 @@ The heat dissipation with fan uses 6s to cool down temperature and 15s without f
 
 
 </div>
-
-
-  </body>
-
