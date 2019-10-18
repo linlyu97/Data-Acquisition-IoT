@@ -56,12 +56,13 @@ The phenomena of interest in our project include temperature, humidity and combu
 <h3 id="2.1"> Physical Principles</h3>
 <ul>
 <p>Temperature</p>
-<ul>Temperature is a physical quantity expressing hot and cold. If the room temperature is too low, the body's heat will be lost to the air too much, and people will feel cold, which reflects the necessity of appropriate room temperature. In this project, what we consider most is room temperature, which is the range of air temperature that most people prefer for indoor settings. According to Thermal Environmental Conditions for Human Occupancy[1], the appropriate indoor temperature of human body in summer is 23~26℃, and 20~23.5℃ in winter. In this project, we will dynamically make decisions based on current seasonality.
-</ul>
+  <ul>
+    Temperature is a physical quantity expressing hot and cold. If the room temperature is too low, the body's heat will be lost to the air too much, and people will feel cold, which reflects the necessity of appropriate room temperature. In this project, what we consider most is room temperature, which is the range of air temperature that most people prefer for indoor settings. According to Thermal Environmental Conditions for Human Occupancy[1], the appropriate indoor temperature of human body in summer is 23~26℃, and 20~23.5℃ in winter. In this project, we will dynamically make decisions based on current seasonality.
+  </ul>
 <p> Humidity</p>
-<ul>
-  Humidity is the measure of water vapour present in the air. Humidity parameters are stated in diverse ways and the corresponding units are based on the measurement technique used. The most commonly used terms are “Relative Humidity RH”, “Parts Per Million (PPM)” by weight or by volume and “Dew/Frost Point (D/F PT)”, in which the two latter are subclasses of “Absolute Humidity (AB)”. What we use in this project is relative humidity. Relative Humidity (abbreviated as RH) is defined as the ratio of the amount of moisture content of air to the maximum (saturated) moisture level that the air can hold at the same given temperature and pressure of the gas. According to Thermal Environmental Conditions for Human Occupancy[1], the appropriate indoor humidity of human body is 40~60%, which we used in the algorithms.
-</ul>
+  <ul>
+    Humidity is the measure of water vapour present in the air. Humidity parameters are stated in diverse ways and the corresponding units are based on the measurement technique used. The most commonly used terms are “Relative Humidity RH”, “Parts Per Million (PPM)” by weight or by volume and “Dew/Frost Point (D/F PT)”, in which the two latter are subclasses of “Absolute Humidity (AB)”. What we use in this project is relative humidity. Relative Humidity (abbreviated as RH) is defined as the ratio of the amount of moisture content of air to the maximum (saturated) moisture level that the air can hold at the same given temperature and pressure of the gas. According to Thermal Environmental Conditions for Human Occupancy[1], the appropriate indoor humidity of human body is 40~60%, which we used in the algorithms.
+  </ul>
 <p>Combustible Gas</p>
   <ul>
     Combustible gases include natural gas, methane, butane, propane and hydrogen. Vapor density is one of the properties of combustible gas. The definition of it is the relative of the vapor as compared with air. It is calculated as the ratio of the molecular weight of the vapor to the molecular weight air.[2] In our project,  the gas density is represented in terms of voltage and converted into standard unit to describe gas density
@@ -69,27 +70,27 @@ The phenomena of interest in our project include temperature, humidity and combu
 <h3 id="2.2"> Static and Dynamic Behavior</h3>
 
 <p>Temperature</p>
-<ul>
-  Temperature can be influenced by many factors, such as time and human activities. Temperature is usually low at midnight, decreasing in the early hours of the morning, and then increasing rapidly until just after midday. It then decreasing during the night. As for the human activities, the more people in the room, the more heat they radiate, and the temperature in the room would rise. Thus, read-time monitoring of room temperature is necessary.
-</ul>
+  <ul>
+    Temperature can be influenced by many factors, such as time and human activities. Temperature is usually low at midnight, decreasing in the early hours of the morning, and then increasing rapidly until just after midday. It then decreasing during the night. As for the human activities, the more people in the room, the more heat they radiate, and the temperature in the room would rise. Thus, read-time monitoring of room temperature is necessary.
+  </ul>
 <p> Humidity</p>
-<ul>
-  Humidity changes throughout the day. Relative humidity is usually high at midnight and in the early morning, drops rapidly, after the sun rises, until it is lowest just after midday. However, the human body often cannot feel the change of indoor humidity in a short time until there is some physiological response, such as thirst, which is not a good idea for keeping healthy in the long run. Therefore, it is necessary to know the humidity change in time.
-</ul>
+  <ul>
+    Humidity changes throughout the day. Relative humidity is usually high at midnight and in the early morning, drops rapidly, after the sun rises, until it is lowest just after midday. However, the human body often cannot feel the change of indoor humidity in a short time until there is some physiological response, such as thirst, which is not a good idea for keeping healthy in the long run. Therefore, it is necessary to know the humidity change in time.
+  </ul>
 <p>Combustible Gas</p>
-<ul>
-  Many kinds of combustible gas that people use frequently, such as natural gas, are odorless, which means it could be hard for human to detect gas leakage. When the combustible gas reaches the explosive range, it is hazardous for people to stay in the room. Therefore, the detect of combustible gas is essential.
-</ul>
+  <ul>
+    Many kinds of combustible gas that people use frequently, such as natural gas, are odorless, which means it could be hard for human to detect gas leakage. When the combustible gas reaches the explosive range, it is hazardous for people to stay in the room. Therefore, the detect of combustible gas is essential.
+  </ul>
 
 <h3 id="2.3"> Signal Characteristics</h3>
 <p>Temperature & Humidity</p>
-<ul>
-  As for the detection of the temperature and humidity, the sensor we use is DHT11. The format of output data is 40-bit data, including 8bit integral RH data + 8bit decimal RH data + 8bit integral T data + 8bit decimal T data + 8bit check-sum. If the data transmission is right, the check-sum should be the last 8bit of "8bit integral RH data + 8bit decimal RH data + 8bit integral T data + 8bit decimal T data". Thus, the signal of temperature and humidity of discrete data points.
-</ul>
+  <ul>
+    As for the detection of the temperature and humidity, the sensor we use is DHT11. The format of output data is 40-bit data, including 8bit integral RH data + 8bit decimal RH data + 8bit integral T data + 8bit decimal T data + 8bit check-sum. If the data transmission is right, the check-sum should be the last 8bit of "8bit integral RH data + 8bit decimal RH data + 8bit integral T data + 8bit decimal T data". Thus, the signal of temperature and humidity of discrete data points.
+  </ul>
 <p>Combustible gas</p>
-<ul>
-  In our project, the sensor we use for detecting combustible gas is MQ-2. And the concentration of combustible gas is reflected by 0~4.2V analog output voltage. The voltage varies with the concentration of combustible gas in the room. The higher the concentration the higher the voltage.
-</ul>
+  <ul>
+    In our project, the sensor we use for detecting combustible gas is MQ-2. And the concentration of combustible gas is reflected by 0~4.2V analog output voltage. The voltage varies with the concentration of combustible gas in the room. The higher the concentration the higher the voltage.
+  </ul>
 
 <h2 id="Review of Sensors Being Utilized"> Review of Sensors Being Utilized </h2>
   The sensors that are used for Indoor Air Quality Monitoring System are as follows:
@@ -193,7 +194,7 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
     <li>Rising smoke density and observe buzzer and ventilation fan reponses.</li>
     <li>Hold to see the effect of the expelation of the dangerous gas by ventilation fan. (seconds)</li>
     <li>Periodically run sensor performance measurement</li>
-<ol>
+</ol>
 <h3 id="problems-encountered">Monitoring Sensor Performance</h3>
 <ul>
 For the purpose of quantifying the temperature sensor(DHT11) performance, the project also implemented a second reference temperature sensor DS18B20, which discussed in previous section in detail.
