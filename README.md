@@ -154,9 +154,9 @@ Physical devices integrated:
     <li>The repeatability about humidity is  ±1% </li>
     <li>The repeatability about temperature is  ±0.2°C </li>
 </ul>
-<p> DHT11Static behavior: Dynamic Behavior</p>
+<p> DHT11Static behavior: Lag</p>
   <ul>
-    Lag: there is a lag between the changes in temperature or humidity intensity and resistance of sensor. However, this lag can be ignored.
+    There is a lag between the changes in temperature or humidity intensity and resistance of sensor. However, this lag can be ignored.
   </ul>
 <p> MQ-2: Sensitivity</p>
 <ul>
@@ -242,7 +242,7 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
 <ul>
 <figure>
     <center>
-    <img src="pics/openChirp.png" width = "1000" height = "400" class="center">
+    <img src="pics/openChirp.png" width = "1100" height = "350" class="center">
     <figcaption> <strong>Figure 6:</strong> OpenChirp IOT real time sensor data monitoring</figcaption>
     </center>
 </figure>
