@@ -111,6 +111,12 @@ Physical devices integrated:
 <h3 id="3.1"> Physical Principle</h3>
 <p>DHT11</p>
 <ul>
+  <figure>
+    <center>
+    <img src="pics/dht11.png" width = "350" height = "250" class="center">
+    <figcaption> <strong>Figure 1:</strong> DHT11 sensor and characteristics </figcaption>
+    </center>
+</figure>
   DHT11 Temperature & Humidity Sensor features a temperature & humidity sensor complex with a calibrated digital signal output. This kind of sensor consists of a humidity sensing component, an NTC temperature sensor and an IC on the back side of it[3].
   For measuring humidity, we would use the humidity sensing component which has two electrodes with moisture holding substrate between them. So as the humidity changes, the conductivity of the substrate changes or the resistance between these electrodes changes. On the other hand, a NTC temperature sensor/Thermistor to measure temperature[4].
 </ul>
@@ -161,7 +167,7 @@ From the table below, we can see that it has wide detecting scope, fast response
 <figure>
   <center>
     <img src="pics/mq-2.png" width = "420" height = "250"  class="center">
-    <figcaption> <strong>Figure 1:</strong> MQ-2 Sensor Data Sheet  </figcaption>
+    <figcaption> <strong>Figure 2:</strong> MQ-2 Sensor Data Sheet  </figcaption>
   </center>
 </figure>
 
@@ -178,7 +184,7 @@ In the “Automatic Mode”, the sensing system will run locally and automatical
 <figure>
     <center>
     <img src="pics/setup.jpg" width = "400" height = "250" class="center">
-    <figcaption> <strong>Figure 2:</strong> Experiment Setup </figcaption>
+    <figcaption> <strong>Figure 3:</strong> Experiment Setup </figcaption>
     </center>
 </figure>
 
@@ -208,18 +214,24 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
 <ul>
 <figure>
     <center>
-    <img src="pics/openChirp.png" width = "600" height = "250" class="center">
-    <figcaption> <strong>Figure 3:</strong> OpenChirp IOT real time sensor data monitoring</figcaption>
+    <img src="pics/openChirp.png" width = "1000" height = "250" class="center">
+    <figcaption> <strong>Figure 4:</strong> OpenChirp IOT real time sensor data monitoring</figcaption>
     </center>
 </figure>
 <p>Under IOT mode, users can have a real time monitoring sensor data as shown in the figure 3.</p>
 <p>
-  Under the automatic mode, the heat dissipation with fan uses 6s to cool down temperature and 15s without fan to cool down using room temperature. So there is a 60% effectiveness improvement when using the fan to reduce the temperature. Similarly, there is a 43% of  improvement to expel unsafe gas using the ventilation fan. Both precision and recall are mostly 100% to show the health condition of the temperature sensor. The accuracy and precisios
+  Under the automatic mode, the heat dissipation with fan uses 6s to cool down temperature and 15s without fan to cool down using room temperature. So there is a 60% effectiveness improvement when using the fan to reduce the temperature. Similarly, there is a 43% of  improvement to expel unsafe gas using the ventilation fan. Both precision and recall are mostly 100% to show the health condition of the temperature sensor.
 </p>
     <center>
-    <img src="pics/precision.png" width = "300" height = "250" class="left">
-    <img src="pics/performance.png" width = "600" height = "250" class="center">
-    <figcaption> <strong>Figure 4:</strong> DHT11 accuracy monitoring</figcaption>
+    <img src="pics/precision.png" width = "300" height = "500" class="center">
+    <figcaption> <strong>Figure 5:</strong> DHT11 accuracy monitoring</figcaption>
+    </center>
+<p>
+  Both precision and recall are presented in the openChirp to present a visulization of the sensor performance. If the sensor,DHT11, failed to recognize most of the cases, the reference sensor would replace the DHT11 to continue performing sensing.
+</p>
+    <center>
+    <img src="pics/performance.png" width = "1000" height = "250" class="center">
+    <figcaption> <strong>Figure 6:</strong> DHT11 accuracy monitoring</figcaption>
     </center>
 </ul>
 
