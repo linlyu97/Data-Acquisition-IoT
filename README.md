@@ -66,7 +66,6 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
 <ul>Combustible gases include natural gas, methane, butane, propane and hydrogen. Vapor density is one of the properties of combustible gas. The definition of it is the relative of the vapor as compared with air. It is calculated as the ratio of the molecular weight of the vapor to the molecular weight air.[2] In our project,  the gas density is represented in terms of voltage and converted into standard unit to describe gas density
 </ul>
 
-<<<<<<< HEAD
 <h3 id="2.2"> Static and Dynamic Behavior</h3>
 <ul>
 <p>Temperature</p>
@@ -93,10 +92,8 @@ Humidity is the measure of water vapour present in the air. Humidity parameters 
 </ul>
 
 <h2 id="Review of Sensors Being Utilized"> Review of Sensors Being Utilized </h2>
-<ul>
   The sensors that are used for Indoor Air Quality Monitoring System are as follows:
-</ul>
-<ul>
+<ul style="list-style-type:circle;">
   <li>DHT11</li>
   <li>MQ-2</li>
   <li>DS18B20 (Reference)</li>
