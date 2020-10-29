@@ -232,12 +232,12 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
     The performance measurements are based on descriptive statistical error analysis which treats the reference sensor data as ground truth and compare the temperature sensor data from DHT11 with the ground truth. The target is binary outcome that decide if the temperature sensor data have same result versus ground truth in determining whether the temperature is within the comfortable range mentioned in the previous section. The performance metrics is represented in terms of confusion metrics and further derived precision and recall scores.
   </p>
 </ul>
-  </figure>
+</figure>
   <center>
   <img src="pics/precision.png" width = "300" height = "500" class="center">
   <figcaption> <strong>Figure 5:</strong> DHT11 accuracy monitoring</figcaption>
   </center>
-  </figure>
+</figure>
 <p>
 <h3 id="problems-encountered">Result</h3>
 <ul>
