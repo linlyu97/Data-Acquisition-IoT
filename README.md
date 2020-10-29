@@ -242,10 +242,12 @@ On the other hand, if the Automatic mode was chosen, the experiment is performed
 <h3 id="problems-encountered">Result</h3>
 <ul>
 
+<figure>
     <center>
-    <img src="pics/openChirp.png" width = "1100" height = "350" class="center">
+    <img src="pics/openChirp.png" width="1100" height="350" class="center" />
     <figcaption> <strong>Figure 6:</strong> OpenChirp IOT real time sensor data monitoring</figcaption>
     </center>
+</figure>
 
 <p>Under IOT mode, users can have a real time monitoring sensor data as shown in the figure 3.</p>
 <p>
